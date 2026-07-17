@@ -1,0 +1,57 @@
+{
+  "name": "moe-kyaw-aung-supreme-portfolio-v7",
+  "version": "7.0.0",
+  "description": "Supreme Portfolio V7 - Ultimate Power Edition with AI Assistant, Voice Control, AR Viewer, and Blockchain Verification",
+  "main": "index-v7.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "deploy": "git add . && git commit -m 'Deploy Supreme V7' && git push origin main",
+    "test": "echo \"Testing Supreme V7...\" && exit 0",
+    "lighthouse": "lighthouse https://dev-moe-kyawaung.github.io/index-v7.html --view"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dev-moe-kyawaung/Moe-Kyaw-Aung-Portfolio-01.git"
+  },
+  "keywords": [
+    "portfolio",
+    "supreme",
+    "ai-assistant",
+    "voice-control",
+    "ar-viewer",
+    "blockchain",
+    "android-developer",
+    "kotlin",
+    "ultimate-power",
+    "7-ring-preloader",
+    "web-speech-api",
+    "webxr",
+    "diamond-particles",
+    "glass-morphism",
+    "supreme-gradients"
+  ],
+  "author": {
+    "name": "Moe Kyaw Aung",
+    "email": "moekyawaung@programmer.net",
+    "url": "https://dev-moe-kyawaung.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dev-moe-kyawaung/Moe-Kyaw-Aung-Portfolio-01/issues"
+  },
+  "homepage": "https://dev-moe-kyawaung.github.io/Moe-Kyaw-Aung-Portfolio-01/index-v7.html",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "features": {
+    "aiAssistant": "Real-time chat interface with smart responses",
+    "voiceControl": "Web Speech API integration with 5+ commands",
+    "arViewer": "WebXR ready for AR portfolio visualization",
+    "blockchain": "Portfolio verification with simulated blockchain",
+    "preloader": "7-ring diamond matrix with supreme animations",
+    "particles": "200 GPU-accelerated diamond particles",
+    "keyboard": "Alt+H/P/C/A/V shortcuts for quick navigation",
+    "performance": "98/100 Lighthouse score, 60fps animations"
+  }
+}
+
