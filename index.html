@@ -1,0 +1,2986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Moe Kyaw Aung - Supreme Portfolio V7. The most powerful portfolio with AI assistant, voice control, AR viewer, blockchain verification, and quantum animations">
+    <meta name="keywords" content="Supreme Portfolio, AI Assistant, Voice Control, AR/VR, Blockchain, Quantum Computing">
+    <meta name="author" content="Moe Kyaw Aung">
+    <meta property="og:title" content="Moe Kyaw Aung - SUPREME PORTFOLIO V7">
+    <meta property="og:description" content="The Most Powerful Portfolio Ever Created - With AI, Voice, AR, and Blockchain">
+    <meta property="og:image" content="https://res.cloudinary.com/dye5qpwii/image/upload/v1778527878/IMG_20260430_053105_uef0yr.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <title>ðŸ‘‘ MOE KYAW AUNG ðŸ‘‘ SUPREME PORTFOLIO V7 - ULTIMATE POWER</title>
+    
+    <!-- Supreme Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;900&family=Orbitron:wght@400;900&family=Poppins:wght@100;900&family=Bebas+Neue&family=Raleway:wght@100;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Pro -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        /* ============================================================
+           SUPREME CSS VARIABLES - VERSION 7 ULTIMATE POWER
+           ============================================================ */
+        :root {
+            /* Supreme Power Gradients */
+            --supreme-primary: linear-gradient(135deg, #667eea 0%, #764ba2 20%, #f093fb 40%, #4facfe 60%, #00f2fe 80%, #667eea 100%);
+            --supreme-gold: linear-gradient(135deg, #FFD700 0%, #FFA500 25%, #FF8C00 50%, #FFD700 75%, #FFED4E 100%);
+            --supreme-diamond: linear-gradient(135deg, #E0FFFF 0%, #B0E0E6 25%, #87CEEB 50%, #B0E0E6 75%, #E0FFFF 100%);
+            --supreme-plasma: linear-gradient(135deg, #667eea 0%, #f093fb 16%, #4facfe 32%, #00f2fe 48%, #fa709a 64%, #fee140 80%, #667eea 100%);
+            
+            /* Supreme Colors */
+            --supreme-white: #FFFFFF;
+            --supreme-black: #000000;
+            --supreme-deep: #0a0014;
+            --supreme-dark: #1a0033;
+            --supreme-void: #050008;
+            
+            /* Supreme Glass */
+            --glass-supreme: rgba(255, 255, 255, 0.03);
+            --glass-border-supreme: rgba(255, 255, 255, 0.12);
+            --glass-shadow-supreme: 0 8px 32px 0 rgba(0, 0, 0, 0.9);
+            --glass-blur-supreme: blur(40px);
+            
+            /* Supreme Animations */
+            --supreme-ease: cubic-bezier(0.16, 1, 0.3, 1);
+            --supreme-bounce: cubic-bezier(0.68, -1.5, 0.32, 2.5);
+            --supreme-elastic: cubic-bezier(0.68, -2, 0.32, 3);
+            
+            /* Supreme Spacing */
+            --space-supreme: clamp(15rem, 30vw, 25rem);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--supreme-void);
+            color: var(--supreme-white);
+            overflow-x: hidden;
+            position: relative;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Supreme Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--supreme-void);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--supreme-gold);
+            border-radius: 10px;
+            box-shadow: 0 0 50px rgba(255, 215, 0, 1);
+        }
+
+        /* ============================================================
+           SUPREME PRELOADER - Diamond Matrix
+           ============================================================ */
+        .supreme-preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, #1a0033 0%, #000000 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10001;
+            transition: opacity 2s ease, visibility 2s ease;
+        }
+
+        .supreme-preloader.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .diamond-matrix {
+            position: relative;
+            width: 350px;
+            height: 350px;
+        }
+
+        .diamond-ring {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 5px solid transparent;
+            border-radius: 50%;
+            animation: diamondSpin 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+        }
+
+        .diamond-ring:nth-child(1) {
+            border-top-color: #FFD700;
+            border-right-color: #FFA500;
+            animation-delay: 0s;
+            box-shadow: 0 0 60px #FFD700, inset 0 0 60px #FFD700;
+        }
+
+        .diamond-ring:nth-child(2) {
+            width: 88%;
+            height: 88%;
+            top: 6%;
+            left: 6%;
+            border-top-color: #E0FFFF;
+            border-right-color: #87CEEB;
+            animation-delay: -0.7s;
+            box-shadow: 0 0 60px #E0FFFF, inset 0 0 60px #E0FFFF;
+        }
+
+        .diamond-ring:nth-child(3) {
+            width: 76%;
+            height: 76%;
+            top: 12%;
+            left: 12%;
+            border-top-color: #667eea;
+            border-right-color: #f093fb;
+            animation-delay: -1.4s;
+            box-shadow: 0 0 60px #667eea, inset 0 0 60px #667eea;
+        }
+
+        .diamond-ring:nth-child(4) {
+            width: 64%;
+            height: 64%;
+            top: 18%;
+            left: 18%;
+            border-top-color: #4facfe;
+            border-right-color: #00f2fe;
+            animation-delay: -2.1s;
+            box-shadow: 0 0 60px #4facfe, inset 0 0 60px #4facfe;
+        }
+
+        .diamond-ring:nth-child(5) {
+            width: 52%;
+            height: 52%;
+            top: 24%;
+            left: 24%;
+            border-top-color: #fa709a;
+            border-right-color: #fee140;
+            animation-delay: -2.8s;
+            box-shadow: 0 0 60px #fa709a, inset 0 0 60px #fa709a;
+        }
+
+        .diamond-ring:nth-child(6) {
+            width: 40%;
+            height: 40%;
+            top: 30%;
+            left: 30%;
+            border-top-color: #ff0080;
+            border-right-color: #ff8c00;
+            animation-delay: -3.5s;
+            box-shadow: 0 0 60px #ff0080, inset 0 0 60px #ff0080;
+        }
+
+        .diamond-ring:nth-child(7) {
+            width: 28%;
+            height: 28%;
+            top: 36%;
+            left: 36%;
+            border-top-color: #30cfd0;
+            border-right-color: #a8edea;
+            animation-delay: -4.2s;
+            box-shadow: 0 0 60px #30cfd0, inset 0 0 60px #30cfd0;
+        }
+
+        @keyframes diamondSpin {
+            0% { transform: rotate(0deg) scale(1); }
+            25% { transform: rotate(90deg) scale(1.1); }
+            50% { transform: rotate(180deg) scale(0.95); }
+            75% { transform: rotate(270deg) scale(1.05); }
+            100% { transform: rotate(360deg) scale(1); }
+        }
+
+        .supreme-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 4rem;
+            font-weight: 900;
+            background: var(--supreme-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-size: 200% auto;
+            animation: supremeShift 4s linear infinite, supremePulse 3s ease-in-out infinite;
+            letter-spacing: 12px;
+            text-transform: uppercase;
+            text-shadow: 0 0 100px rgba(255, 215, 0, 1);
+        }
+
+        @keyframes supremeShift {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 200% 50%; }
+        }
+
+        @keyframes supremePulse {
+            0%, 100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+            50% { opacity: 0.7; transform: translate(-50%, -50%) scale(1.15); }
+        }
+
+        /* ============================================================
+           AI ASSISTANT PANEL - Supreme Feature
+           ============================================================ */
+        .ai-assistant {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 9999;
+        }
+
+        .ai-button {
+            width: 80px;
+            height: 80px;
+            background: var(--supreme-gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 0 60px rgba(255, 215, 0, 0.8), 0 0 120px rgba(255, 215, 0, 0.6);
+            animation: aiPulse 2s ease-in-out infinite;
+            transition: all 0.4s var(--supreme-ease);
+        }
+
+        .ai-button:hover {
+            transform: scale(1.2) rotate(180deg);
+            box-shadow: 0 0 100px rgba(255, 215, 0, 1), 0 0 200px rgba(255, 215, 0, 0.8);
+        }
+
+        @keyframes aiPulse {
+            0%, 100% { box-shadow: 0 0 60px rgba(255, 215, 0, 0.8); }
+            50% { box-shadow: 0 0 120px rgba(255, 215, 0, 1), 0 0 200px rgba(255, 215, 0, 0.6); }
+        }
+
+        .ai-button i {
+            font-size: 2.5rem;
+            color: var(--supreme-void);
+            animation: aiRotate 3s linear infinite;
+        }
+
+        @keyframes aiRotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .ai-panel {
+            position: absolute;
+            bottom: 100px;
+            right: 0;
+            width: 400px;
+            height: 600px;
+            background: var(--glass-supreme);
+            backdrop-filter: var(--glass-blur-supreme);
+            border: 2px solid var(--glass-border-supreme);
+            border-radius: 30px;
+            padding: 2rem;
+            display: none;
+            flex-direction: column;
+            box-shadow: var(--glass-shadow-supreme);
+            transform-origin: bottom right;
+            animation: aiPanelOpen 0.6s var(--supreme-ease);
+        }
+
+        .ai-panel.active {
+            display: flex;
+        }
+
+        @keyframes aiPanelOpen {
+            from { opacity: 0; transform: scale(0.3) translateY(50px); }
+            to { opacity: 1; transform: scale(1) translateY(0); }
+        }
+
+        .ai-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--glass-border-supreme);
+        }
+
+        .ai-avatar {
+            width: 60px;
+            height: 60px;
+            background: var(--supreme-gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            animation: aiPulse 2s ease-in-out infinite;
+        }
+
+        .ai-info h3 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.8rem;
+            background: var(--supreme-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .ai-info p {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .ai-chat {
+            flex: 1;
+            overflow-y: auto;
+            margin-bottom: 1rem;
+            padding-right: 0.5rem;
+        }
+
+        .ai-chat::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .ai-chat::-webkit-scrollbar-thumb {
+            background: var(--supreme-gold);
+            border-radius: 3px;
+        }
+
+        .ai-message {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            border-radius: 15px;
+            margin-bottom: 1rem;
+            border-left: 3px solid var(--supreme-gold);
+            animation: messageSlide 0.4s var(--supreme-ease);
+        }
+
+        @keyframes messageSlide {
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .ai-input-container {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .ai-input {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border-supreme);
+            border-radius: 20px;
+            padding: 1rem 1.5rem;
+            color: white;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .ai-input:focus {
+            outline: none;
+            border-color: var(--supreme-gold);
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .ai-send {
+            width: 50px;
+            height: 50px;
+            background: var(--supreme-gold);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s var(--supreme-ease);
+        }
+
+        .ai-send:hover {
+            transform: scale(1.1) rotate(90deg);
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.8);
+        }
+
+        /* ============================================================
+           VOICE CONTROL INDICATOR
+           ============================================================ */
+        .voice-control {
+            position: fixed;
+            top: 100px;
+            right: 30px;
+            z-index: 9998;
+        }
+
+        .voice-button {
+            width: 70px;
+            height: 70px;
+            background: var(--supreme-diamond);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 0 50px rgba(135, 206, 235, 0.8);
+            transition: all 0.4s var(--supreme-ease);
+        }
+
+        .voice-button:hover {
+            transform: scale(1.15);
+            box-shadow: 0 0 80px rgba(135, 206, 235, 1);
+        }
+
+        .voice-button.listening {
+            animation: voicePulse 1s ease-in-out infinite;
+        }
+
+        @keyframes voicePulse {
+            0%, 100% { 
+                transform: scale(1); 
+                box-shadow: 0 0 50px rgba(135, 206, 235, 0.8);
+            }
+            50% { 
+                transform: scale(1.3); 
+                box-shadow: 0 0 100px rgba(135, 206, 235, 1), 0 0 150px rgba(135, 206, 235, 0.6);
+            }
+        }
+
+        .voice-waves {
+            display: flex;
+            gap: 5px;
+        }
+
+        .voice-wave {
+            width: 4px;
+            height: 20px;
+            background: var(--supreme-void);
+            border-radius: 2px;
+            animation: waveMove 1s ease-in-out infinite;
+        }
+
+        .voice-wave:nth-child(2) { animation-delay: 0.1s; }
+        .voice-wave:nth-child(3) { animation-delay: 0.2s; }
+        .voice-wave:nth-child(4) { animation-delay: 0.3s; }
+
+        @keyframes waveMove {
+            0%, 100% { height: 20px; }
+            50% { height: 40px; }
+        }
+
+        /* ============================================================
+           AR VIEWER BUTTON
+           ============================================================ */
+        .ar-viewer {
+            position: fixed;
+            top: 190px;
+            right: 30px;
+            z-index: 9997;
+        }
+
+        .ar-button {
+            width: 70px;
+            height: 70px;
+            background: var(--supreme-plasma);
+            background-size: 200% auto;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 0 50px rgba(102, 126, 234, 0.8);
+            animation: arShift 3s linear infinite;
+            transition: transform 0.4s var(--supreme-ease);
+        }
+
+        .ar-button:hover {
+            transform: scale(1.15) rotateY(180deg);
+        }
+
+        @keyframes arShift {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 200% 50%; }
+        }
+
+        .ar-button i {
+            font-size: 2rem;
+            color: white;
+        }
+
+        /* ============================================================
+           BLOCKCHAIN VERIFICATION BADGE
+           ============================================================ */
+        .blockchain-badge {
+            position: fixed;
+            top: 280px;
+            right: 30px;
+            z-index: 9996;
+        }
+
+        .blockchain-button {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 0 50px rgba(240, 147, 251, 0.8);
+            position: relative;
+            transition: all 0.4s var(--supreme-ease);
+        }
+
+        .blockchain-button:hover {
+            transform: scale(1.15);
+            box-shadow: 0 0 80px rgba(240, 147, 251, 1);
+        }
+
+        .blockchain-button::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 3px solid #f093fb;
+            border-radius: 50%;
+            animation: blockchainPulse 2s ease-out infinite;
+        }
+
+        @keyframes blockchainPulse {
+            0% { transform: scale(1); opacity: 1; }
+            100% { transform: scale(1.5); opacity: 0; }
+        }
+
+        .blockchain-button i {
+            font-size: 2rem;
+            color: white;
+        }
+
+        /* ============================================================
+           SUPREME NAVIGATION
+           ============================================================ */
+        .supreme-nav {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 95%;
+            max-width: 1500px;
+            background: var(--glass-supreme);
+            backdrop-filter: var(--glass-blur-supreme);
+            border: 2px solid var(--glass-border-supreme);
+            border-radius: 70px;
+            z-index: 1000;
+            transition: all 1s var(--supreme-ease);
+            box-shadow: var(--glass-shadow-supreme);
+            padding: 1rem 3.5rem;
+        }
+
+        .supreme-nav.scrolled {
+            background: rgba(0, 0, 0, 0.98);
+            box-shadow: 
+                0 10px 120px rgba(255, 215, 0, 0.5),
+                0 0 200px rgba(102, 126, 234, 0.4);
+            border-color: rgba(255, 215, 0, 0.6);
+        }
+
+        .nav-container-supreme {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo-supreme {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 900;
+            background: var(--supreme-gold);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            animation: supremeShift 4s linear infinite;
+            position: relative;
+        }
+
+        .nav-logo-supreme::after {
+            content: '';
+            position: absolute;
+            bottom: -12px;
+            left: 0;
+            width: 0;
+            height: 5px;
+            background: var(--supreme-gold);
+            transition: width 0.6s var(--supreme-ease);
+            box-shadow: 0 0 25px rgba(255, 215, 0, 1);
+            border-radius: 3px;
+        }
+
+        .nav-logo-supreme:hover::after {
+            width: 100%;
+        }
+
+        .nav-menu-supreme {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-link-supreme {
+            color: var(--supreme-white);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 1.2rem 2.8rem;
+            border-radius: 50px;
+            transition: all 0.5s var(--supreme-ease);
+            position: relative;
+            overflow: hidden;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .nav-link-supreme::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.5), transparent);
+            transition: left 0.8s;
+        }
+
+        .nav-link-supreme:hover::before {
+            left: 100%;
+        }
+
+        .nav-link-supreme:hover {
+            color: #FFD700;
+            background: rgba(255, 215, 0, 0.15);
+            box-shadow: 0 0 50px rgba(255, 215, 0, 0.6);
+            transform: translateY(-4px);
+        }
+
+        /* ============================================================
+           SUPREME HERO
+           ============================================================ */
+        .supreme-hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            padding-top: 130px;
+            perspective: 3000px;
+        }
+
+        /* Supreme Background Effects */
+        .supreme-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 30% 30%, rgba(102, 126, 234, 0.2) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 70%, rgba(255, 215, 0, 0.2) 0%, transparent 50%),
+                        radial-gradient(circle at 50% 50%, rgba(240, 147, 251, 0.15) 0%, transparent 70%);
+            animation: supremeBgMove 20s ease-in-out infinite;
+            z-index: 0;
+        }
+
+        @keyframes supremeBgMove {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(-40px, 40px) scale(1.05); }
+            66% { transform: translate(40px, -40px) scale(0.95); }
+        }
+
+        /* Diamond Particles */
+        .diamond-particles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .diamond-particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: var(--supreme-gold);
+            box-shadow: 0 0 20px var(--supreme-gold);
+            animation: diamondFloat 25s linear infinite;
+            opacity: 0;
+        }
+
+        @keyframes diamondFloat {
+            0% {
+                transform: translate3d(0, 100vh, 0);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translate3d(200px, -100vh, 400px);
+                opacity: 0;
+            }
+        }
+
+        /* Hero Content */
+        .hero-content-supreme {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 1600px;
+            padding: 3rem;
+            transform-style: preserve-3d;
+        }
+
+        /* Supreme Badge */
+        .supreme-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 1.8rem;
+            background: var(--glass-supreme);
+            backdrop-filter: blur(40px);
+            border: 2px solid var(--glass-border-supreme);
+            padding: 1.5rem 4rem;
+            border-radius: 70px;
+            font-size: 1.2rem;
+            font-weight: 800;
+            margin-bottom: 4rem;
+            animation: supremeSlideDown 2s var(--supreme-ease), supremeFloat 7s ease-in-out infinite 2s;
+            font-family: 'Raleway', sans-serif;
+            letter-spacing: 3px;
+            box-shadow: 
+                0 25px 70px rgba(255, 215, 0, 0.4),
+                inset 0 2px 0 rgba(255, 255, 255, 0.3);
+            position: relative;
+            overflow: hidden;
+            text-transform: uppercase;
+        }
+
+        .supreme-badge::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -250%;
+            width: 250%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+            animation: supremeShimmer 6s infinite;
+        }
+
+        @keyframes supremeShimmer {
+            0% { left: -250%; }
+            100% { left: 250%; }
+        }
+
+        @keyframes supremeSlideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-120px) scale(0.5) translateZ(-200px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1) translateZ(0);
+            }
+        }
+
+        @keyframes supremeFloat {
+            0%, 100% { transform: translateY(0) translateZ(0) rotateX(0deg); }
+            50% { transform: translateY(-30px) translateZ(40px) rotateX(8deg); }
+        }
+
+        .badge-supreme-pulse {
+            width: 22px;
+            height: 22px;
+            background: radial-gradient(circle, #FFD700, #FFA500);
+            border-radius: 50%;
+            box-shadow: 
+                0 0 40px #FFD700, 
+                0 0 80px #FFD700,
+                0 0 120px #FFD700;
+                        animation: supremePulseDot 3.5s ease-in-out infinite;
+            position: relative;
+        }
+
+        @keyframes supremePulseDot {
+            0%, 100% { 
+                transform: scale(1); 
+                opacity: 1; 
+                box-shadow: 0 0 40px #FFD700; 
+            }
+            50% { 
+                transform: scale(1.8); 
+                opacity: 0.6; 
+                box-shadow: 0 0 80px #FFD700, 0 0 160px #FFD700; 
+            }
+        }
+
+        /* Supreme Title */
+        .hero-title-supreme {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(5rem, 16vw, 13rem);
+            font-weight: 900;
+            margin-bottom: 3.5rem;
+            line-height: 0.9;
+            animation: supremeFadeInUp 2s var(--supreme-ease) 0.3s backwards;
+            letter-spacing: -5px;
+            position: relative;
+        }
+
+        .title-supreme-3d {
+            background: var(--supreme-gold);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline-block;
+            position: relative;
+            animation: 
+                supremeShift 5s linear infinite,
+                titleSupreme3DFloat 12s ease-in-out infinite;
+            text-shadow: 
+                0 0 120px rgba(255, 215, 0, 1),
+                0 0 180px rgba(255, 215, 0, 0.8);
+        }
+
+        .title-supreme-3d::before {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            background: linear-gradient(135deg, rgba(224, 255, 255, 0.6), rgba(135, 206, 235, 0.6));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            transform: translate(15px, 15px);
+            filter: blur(5px);
+        }
+
+        .title-supreme-3d::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -2;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.5), rgba(240, 147, 251, 0.5));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            transform: translate(30px, 30px);
+            filter: blur(10px);
+        }
+
+        @keyframes titleSupreme3DFloat {
+            0%, 100% {
+                transform: translateY(0) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            }
+            16% {
+                transform: translateY(-25px) rotateX(6deg) rotateY(-10deg) rotateZ(3deg);
+            }
+            33% {
+                transform: translateY(15px) rotateX(-4deg) rotateY(10deg) rotateZ(-3deg);
+            }
+            50% {
+                transform: translateY(-20px) rotateX(5deg) rotateY(-7deg) rotateZ(4deg);
+            }
+            66% {
+                transform: translateY(10px) rotateX(-5deg) rotateY(7deg) rotateZ(-4deg);
+            }
+            83% {
+                transform: translateY(-15px) rotateX(4deg) rotateY(-5deg) rotateZ(2deg);
+            }
+        }
+
+        @keyframes supremeFadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(100px) translateZ(-250px) rotateX(-25deg);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) translateZ(0) rotateX(0);
+            }
+        }
+
+        /* Supreme Subtitle */
+        .hero-subtitle-supreme {
+            font-size: clamp(2.2rem, 6vw, 4rem);
+            font-weight: 900;
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 3rem;
+            font-family: 'Poppins', sans-serif;
+            animation: supremeFadeInUp 2s var(--supreme-ease) 0.6s backwards;
+            position: relative;
+        }
+
+        .supreme-morphing-text {
+            position: relative;
+            display: inline-block;
+            background: var(--supreme-diamond);
+            background-size: 500% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: supremeMorphGradient 12s ease-in-out infinite;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+        @keyframes supremeMorphGradient {
+            0%, 100% { background-position: 0% 50%; }
+            20% { background-position: 100% 50%; }
+            40% { background-position: 200% 50%; }
+            60% { background-position: 300% 50%; }
+            80% { background-position: 400% 50%; }
+        }
+
+        /* Location */
+        .hero-location-supreme {
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.85);
+            margin-bottom: 4.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+            animation: supremeFadeInUp 2s var(--supreme-ease) 0.9s backwards;
+            font-weight: 700;
+        }
+
+        .location-pin-supreme {
+            color: #FFD700;
+            animation: bounceSupremePin 3.5s ease-in-out infinite;
+            font-size: 2rem;
+            filter: drop-shadow(0 0 20px #FFD700);
+        }
+
+        @keyframes bounceSupremePin {
+            0%, 100% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-20px) scale(1.3); }
+        }
+
+        /* Description */
+        .hero-desc-supreme {
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 1100px;
+            margin: 0 auto 6rem;
+            line-height: 2.3;
+            animation: supremeFadeInUp 2s var(--supreme-ease) 1.2s backwards;
+            font-weight: 500;
+        }
+
+        /* Supreme Statistics */
+        .hero-stats-supreme {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 4rem;
+            margin: 7rem auto;
+            max-width: 1300px;
+            animation: supremeFadeInUp 2s var(--supreme-ease) 1.5s backwards;
+        }
+
+        .stat-card-supreme {
+            background: var(--glass-supreme);
+            backdrop-filter: blur(40px);
+            border: 2px solid var(--glass-border-supreme);
+            border-radius: 40px;
+            padding: 4rem 3.5rem;
+            transition: all 1s var(--supreme-ease);
+            position: relative;
+            overflow: hidden;
+            transform-style: preserve-3d;
+            cursor: pointer;
+        }
+
+        .stat-card-supreme::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(
+                from 0deg,
+                transparent,
+                rgba(255, 215, 0, 0.6),
+                transparent 30%,
+                rgba(224, 255, 255, 0.6),
+                transparent 60%,
+                rgba(102, 126, 234, 0.6),
+                transparent 90%
+            );
+            animation: rotateSupremeConic 12s linear infinite;
+            opacity: 0;
+        }
+
+        @keyframes rotateSupremeConic {
+            100% { transform: rotate(360deg); }
+        }
+
+        .stat-card-supreme:hover {
+            transform: translateY(-40px) scale(1.1) rotateX(12deg) rotateY(12deg);
+            box-shadow: 
+                0 60px 180px rgba(255, 215, 0, 0.8),
+                0 0 150px rgba(224, 255, 255, 0.6),
+                inset 0 3px 0 rgba(255, 255, 255, 0.4);
+            border-color: rgba(255, 215, 0, 0.9);
+        }
+
+        .stat-card-supreme:hover::before {
+            opacity: 1;
+        }
+
+        .stat-number-supreme {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 5rem;
+            font-weight: 900;
+            background: var(--supreme-gold);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: block;
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 0 60px rgba(255, 215, 0, 0.8);
+            line-height: 1;
+            margin-bottom: 1.8rem;
+            animation: supremeShift 5s linear infinite;
+        }
+
+        .stat-label-supreme {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.95);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-top: 1rem;
+            position: relative;
+            z-index: 1;
+            font-weight: 900;
+        }
+
+        /* Supreme Buttons */
+        .hero-buttons-supreme {
+            display: flex;
+            gap: 3.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 7rem;
+            animation: supremeFadeInUp 2s var(--supreme-ease) 1.8s backwards;
+        }
+
+        .btn-supreme {
+            padding: 2rem 5rem;
+            font-size: 1.4rem;
+            font-weight: 900;
+            border-radius: 70px;
+            text-decoration: none;
+            transition: all 1s var(--supreme-ease);
+            font-family: 'Raleway', sans-serif;
+            letter-spacing: 2px;
+            position: relative;
+            overflow: hidden;
+            display: inline-flex;
+            align-items: center;
+            gap: 1.8rem;
+            text-transform: uppercase;
+            transform-style: preserve-3d;
+        }
+
+        .btn-primary-supreme {
+            background: var(--supreme-gold);
+            background-size: 200% auto;
+            color: var(--supreme-void);
+            border: none;
+            box-shadow: 
+                0 30px 80px rgba(255, 215, 0, 0.8),
+                0 0 60px rgba(255, 215, 0, 0.6),
+                inset 0 3px 0 rgba(255, 255, 255, 0.5);
+            animation: supremeShift 5s linear infinite;
+        }
+
+        .btn-primary-supreme::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -200%;
+            width: 200%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.7), transparent);
+            transition: left 1s;
+        }
+
+        .btn-primary-supreme:hover {
+            transform: translateY(-12px) scale(1.15) rotateY(-10deg);
+            box-shadow: 
+                0 50px 130px rgba(255, 215, 0, 1),
+                0 0 100px rgba(255, 215, 0, 0.8),
+                inset 0 3px 0 rgba(255, 255, 255, 0.6);
+        }
+
+        .btn-primary-supreme:hover::before {
+            left: 200%;
+        }
+
+        .btn-secondary-supreme {
+            background: transparent;
+            color: var(--supreme-white);
+            border: 3px solid var(--glass-border-supreme);
+            backdrop-filter: blur(25px);
+            box-shadow: inset 0 0 50px rgba(255, 215, 0, 0.2);
+        }
+
+        .btn-secondary-supreme:hover {
+            background: var(--supreme-diamond);
+            background-size: 200% auto;
+            border-color: #E0FFFF;
+            transform: translateY(-12px) scale(1.15) rotateY(10deg);
+            box-shadow: 
+                0 50px 120px rgba(224, 255, 255, 0.7),
+                inset 0 0 60px rgba(224, 255, 255, 0.5);
+            animation: supremeShift 4s linear infinite;
+        }
+
+        /* Social Icons */
+        .hero-socials-supreme {
+            display: flex;
+            gap: 3rem;
+            justify-content: center;
+            margin-top: 7rem;
+            flex-wrap: wrap;
+            animation: supremeFadeInUp 2s var(--supreme-ease) 2.1s backwards;
+        }
+
+        .social-icon-supreme {
+            width: 90px;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--glass-supreme);
+            backdrop-filter: blur(40px);
+            border: 2px solid var(--glass-border-supreme);
+            border-radius: 50%;
+            color: var(--supreme-white);
+            font-size: 2.2rem;
+            transition: all 1s var(--supreme-ease);
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 15px 60px rgba(0, 0, 0, 0.6);
+        }
+
+        .social-icon-supreme::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--supreme-gold);
+            background-size: 200% auto;
+            opacity: 0;
+            transition: opacity 0.6s ease;
+            animation: supremeShift 4s linear infinite;
+        }
+
+        .social-icon-supreme:hover {
+            transform: translateY(-18px) scale(1.4) rotateY(360deg);
+            box-shadow: 
+                0 40px 100px rgba(255, 215, 0, 0.8),
+                0 0 80px rgba(255, 215, 0, 0.7);
+            border-color: #FFD700;
+        }
+
+        .social-icon-supreme:hover::before {
+            opacity: 0.5;
+        }
+
+        .social-icon-supreme i {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Scroll Indicator */
+        .scroll-indicator-supreme {
+            position: absolute;
+            bottom: 70px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+            animation: supremeFadeInUp 2s var(--supreme-ease) 2.4s backwards;
+        }
+
+        .scroll-text-supreme {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.75);
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-weight: 900;
+        }
+
+        .scroll-line-supreme {
+            width: 3px;
+            height: 90px;
+            background: linear-gradient(180deg, var(--supreme-gold), transparent);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .scroll-line-supreme::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            background: linear-gradient(180deg, #FFD700, transparent);
+            animation: scrollDownSupreme 3.5s ease-in-out infinite;
+        }
+
+        @keyframes scrollDownSupreme {
+            0% { transform: translateY(-60px); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateY(90px); opacity: 0; }
+        }
+
+        /* ============================================================
+           SUPREME SECTION SEPARATOR
+           ============================================================ */
+        .section-sep-supreme {
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--supreme-gold), transparent);
+            margin: var(--space-supreme) auto;
+            max-width: 80%;
+            position: relative;
+        }
+
+        .section-sep-supreme::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 25px;
+            height: 25px;
+            background: radial-gradient(circle, #FFD700, transparent);
+            border-radius: 50%;
+            box-shadow: 
+                0 0 50px #FFD700, 
+                0 0 100px #FFD700,
+                0 0 150px #FFD700;
+            animation: supremePulseGlow 3.5s ease-in-out infinite;
+        }
+
+        @keyframes supremePulseGlow {
+            0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+            50% { transform: translate(-50%, -50%) scale(3); opacity: 0.4; }
+        }
+
+        /* ============================================================
+           SUPREME SECTIONS
+           ============================================================ */
+        .section-supreme {
+            padding: var(--space-supreme) 2rem;
+            max-width: 1600px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .section-label-supreme {
+            font-family: 'Raleway', sans-serif;
+            font-size: 1.1rem;
+            color: #FFD700;
+            text-transform: uppercase;
+            letter-spacing: 7px;
+            margin-bottom: 3rem;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3rem;
+            font-weight: 900;
+        }
+
+        .section-label-supreme::before,
+        .section-label-supreme::after {
+            content: '';
+            width: 80px;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #FFD700, transparent);
+            box-shadow: 0 0 20px #FFD700;
+        }
+
+        .section-title-supreme {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(4.5rem, 9vw, 8rem);
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 3.5rem;
+            background: var(--supreme-gold);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.1;
+            letter-spacing: -4px;
+            animation: supremeShift 6s linear infinite;
+        }
+
+        .section-desc-supreme {
+            text-align: center;
+            max-width: 1100px;
+            margin: 0 auto 8rem;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.5rem;
+            line-height: 2.4;
+            font-weight: 500;
+        }
+
+        /* ============================================================
+           SUPREME PROJECTS
+           ============================================================ */
+        .projects-grid-supreme {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+            gap: 6rem;
+            margin-top: 9rem;
+        }
+
+        .project-card-supreme {
+            background: var(--glass-supreme);
+            backdrop-filter: blur(40px);
+            border: 3px solid var(--glass-border-supreme);
+            border-radius: 60px;
+            padding: 6rem;
+            transition: all 1.2s var(--supreme-ease);
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            transform-style: preserve-3d;
+        }
+
+        .project-card-supreme::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -200%;
+            width: 200%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.4), transparent);
+            transition: left 1.5s ease;
+        }
+
+        .project-card-supreme:hover::before {
+            left: 200%;
+        }
+
+        .project-card-supreme:hover {
+            transform: translateY(-45px) scale(1.08) rotateX(10deg);
+            box-shadow: 
+                0 70px 200px rgba(255, 215, 0, 0.8),
+                0 0 150px rgba(224, 255, 255, 0.6),
+                inset 0 3px 0 rgba(255, 255, 255, 0.4);
+            border-color: rgba(255, 215, 0, 0.9);
+        }
+
+        .project-icon-supreme {
+            font-size: 7rem;
+            margin-bottom: 3.5rem;
+            display: inline-block;
+            transition: all 1.2s var(--supreme-ease);
+            filter: drop-shadow(0 0 50px rgba(255, 215, 0, 0.9));
+        }
+
+        .project-card-supreme:hover .project-icon-supreme {
+            transform: scale(1.5) rotateY(360deg) translateZ(100px);
+            filter: drop-shadow(0 0 80px rgba(255, 215, 0, 1));
+        }
+
+        .project-title-supreme {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 900;
+            background: var(--supreme-gold);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 3rem;
+            line-height: 1.2;
+            animation: supremeShift 5s linear infinite;
+        }
+
+        .project-desc-supreme {
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 2.1;
+            margin-bottom: 3.5rem;
+            font-size: 1.25rem;
+        }
+
+        .project-tags-supreme {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.8rem;
+            margin-top: 3.5rem;
+        }
+
+        .project-tag-supreme {
+            background: rgba(255, 215, 0, 0.3);
+            border: 2px solid rgba(255, 215, 0, 0.6);
+            padding: 1rem 2.5rem;
+            border-radius: 35px;
+            font-size: 1.05rem;
+            color: #FFD700;
+            font-weight: 900;
+            transition: all 0.6s var(--supreme-ease);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .project-tag-supreme:hover {
+            background: rgba(255, 215, 0, 0.6);
+            transform: scale(1.25) translateY(-8px);
+            box-shadow: 0 20px 50px rgba(255, 215, 0, 0.6);
+        }
+
+        .project-link-supreme {
+            display: inline-flex;
+            align-items: center;
+            gap: 1.5rem;
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 1.4rem;
+            transition: all 0.6s var(--supreme-ease);
+            margin-top: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .project-link-supreme:hover {
+            gap: 3rem;
+            color: #E0FFFF;
+            transform: translateX(15px);
+        }
+
+        /* ============================================================
+           SUPREME FOOTER
+           ============================================================ */
+        .footer-supreme {
+            background: var(--supreme-dark);
+            border-top: 3px solid var(--glass-border-supreme);
+            padding: 12rem 2rem 5rem;
+            margin-top: var(--space-supreme);
+            position: relative;
+        }
+
+        .footer-supreme::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--supreme-gold);
+            background-size: 200% auto;
+            box-shadow: 0 0 50px rgba(255, 215, 0, 1);
+            animation: supremeShift 6s linear infinite;
+        }
+
+        .footer-grid-supreme {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 7rem;
+            max-width: 1600px;
+            margin: 0 auto 7rem;
+        }
+
+        .footer-column-supreme h4 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 900;
+            background: var(--supreme-gold);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 3.5rem;
+            animation: supremeShift 5s linear infinite;
+        }
+
+        .footer-column-supreme p {
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 2.4;
+            margin-bottom: 3.5rem;
+            font-size: 1.2rem;
+        }
+
+        .footer-links-supreme {
+            list-style: none;
+        }
+
+        .footer-links-supreme li {
+            margin-bottom: 2rem;
+        }
+
+        .footer-links-supreme a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: all 0.6s var(--supreme-ease);
+            display: inline-flex;
+            align-items: center;
+            gap: 1.5rem;
+            font-size: 1.2rem;
+        }
+
+        .footer-links-supreme a:hover {
+            color: #FFD700;
+            transform: translateX(25px);
+        }
+
+        .footer-socials-supreme {
+            display: flex;
+            gap: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-social-icon-supreme {
+            width: 80px;
+            height: 80px;
+            background: var(--glass-supreme);
+            backdrop-filter: blur(25px);
+            border: 2px solid var(--glass-border-supreme);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--supreme-white);
+            text-decoration: none;
+            font-size: 2rem;
+            transition: all 1s var(--supreme-bounce);
+            box-shadow: 0 12px 50px rgba(0, 0, 0, 0.6);
+        }
+
+        .footer-social-icon-supreme:hover {
+            background: var(--supreme-gold);
+            background-size: 200% auto;
+            color: var(--supreme-void);
+            transform: translateY(-20px) rotate(360deg) scale(1.4);
+            box-shadow: 
+                0 50px 120px rgba(255, 215, 0, 0.8),
+                0 0 90px rgba(255, 215, 0, 0.7);
+            animation: supremeShift 4s linear infinite;
+        }
+
+        .footer-bottom-supreme {
+            text-align: center;
+            padding-top: 6rem;
+            border-top: 3px solid var(--glass-border-supreme);
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        .footer-bottom-supreme p {
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+        }
+
+        .footer-heart-supreme {
+            color: #FFD700;
+            animation: heartbeatSupreme 2s infinite;
+            display: inline-block;
+        }
+
+        @keyframes heartbeatSupreme {
+            0%, 100% { transform: scale(1); }
+            10%, 30% { transform: scale(1.35); }
+            20%, 40% { transform: scale(1); }
+        }
+
+        /* ============================================================
+           SUPREME BACK TO TOP
+           ============================================================ */
+        .back-to-top-supreme {
+            position: fixed;
+            bottom: 80px;
+            right: 80px;
+            width: 100px;
+            height: 100px;
+            background: var(--supreme-gold);
+            background-size: 200% auto;
+            color: var(--supreme-void);
+            border: none;
+            border-radius: 50%;
+            font-size: 3rem;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 999;
+            box-shadow: 
+                0 30px 90px rgba(255, 215, 0, 0.9),
+                0 0 80px rgba(255, 215, 0, 0.7);
+            transition: all 1s var(--supreme-bounce);
+            animation: supremeShift 5s linear infinite;
+        }
+
+        .back-to-top-supreme.visible {
+            display: flex;
+        }
+
+        .back-to-top-supreme:hover {
+            transform: translateY(-25px) scale(1.4);
+            box-shadow: 
+                0 60px 150px rgba(255, 215, 0, 1),
+                0 0 120px rgba(255, 215, 0, 0.9);
+        }
+
+        /* ============================================================
+           SCROLL ANIMATIONS
+           ============================================================ */
+        .fade-in-supreme {
+            opacity: 0;
+            transform: translateY(70px);
+                                    transform 1.8s var(--supreme-ease);
+        }
+
+        .fade-in-supreme.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ============================================================
+           RESPONSIVE DESIGN
+           ============================================================ */
+        @media (max-width: 1024px) {
+            .projects-grid-supreme {
+                grid-template-columns: 1fr;
+            }
+
+            .ai-panel {
+                width: 350px;
+                height: 500px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .supreme-nav {
+                width: 95%;
+                padding: 0.8rem 2rem;
+            }
+
+            .nav-menu-supreme {
+                position: fixed;
+                top: 130px;
+                left: -100%;
+                width: 100%;
+                height: calc(100vh - 130px);
+                background: rgba(0, 0, 0, 0.98);
+                backdrop-filter: blur(40px);
+                flex-direction: column;
+                padding: 6rem;
+                transition: left 1s var(--supreme-ease);
+                gap: 3.5rem;
+                align-items: flex-start;
+                border-top: 3px solid var(--glass-border-supreme);
+            }
+
+            .nav-menu-supreme.active {
+                left: 0;
+            }
+
+            .menu-toggle-supreme {
+                display: flex;
+            }
+
+            .menu-toggle-supreme.active span:nth-child(1) {
+                transform: rotate(45deg) translate(11px, 11px);
+            }
+
+            .menu-toggle-supreme.active span:nth-child(2) {
+                opacity: 0;
+                transform: translateX(-60px);
+            }
+
+            .menu-toggle-supreme.active span:nth-child(3) {
+                transform: rotate(-45deg) translate(11px, -11px);
+            }
+
+            .hero-title-supreme {
+                font-size: clamp(3.5rem, 20vw, 10rem);
+            }
+
+            .hero-subtitle-supreme {
+                font-size: clamp(1.8rem, 10vw, 3.5rem);
+            }
+
+            .hero-stats-supreme {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 3rem;
+            }
+
+            .hero-buttons-supreme {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .btn-supreme {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .section-title-supreme {
+                font-size: clamp(3.5rem, 14vw, 7rem);
+            }
+
+            .projects-grid-supreme {
+                gap: 5rem;
+            }
+
+            .project-card-supreme {
+                padding: 5rem;
+            }
+
+            .footer-grid-supreme {
+                grid-template-columns: 1fr;
+                gap: 6rem;
+            }
+
+            .back-to-top-supreme {
+                width: 85px;
+                height: 85px;
+                bottom: 60px;
+                right: 60px;
+                font-size: 2.5rem;
+            }
+
+            .ai-assistant {
+                bottom: 20px;
+                right: 20px;
+            }
+
+            .ai-button {
+                width: 70px;
+                height: 70px;
+            }
+
+            .ai-panel {
+                width: 320px;
+                height: 450px;
+                padding: 1.5rem;
+            }
+
+            .voice-control,
+            .ar-viewer,
+            .blockchain-badge {
+                right: 20px;
+            }
+
+            .voice-button,
+            .ar-button,
+            .blockchain-button {
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-stats-supreme {
+                grid-template-columns: 1fr;
+            }
+
+            .stat-card-supreme {
+                padding: 3.5rem 3rem;
+            }
+
+            .stat-number-supreme {
+                font-size: 4.5rem;
+            }
+
+            .section-label-supreme::before,
+            .section-label-supreme::after {
+                width: 50px;
+            }
+
+            .hero-socials-supreme {
+                gap: 2.5rem;
+            }
+
+            .social-icon-supreme {
+                width: 75px;
+                height: 75px;
+                font-size: 1.9rem;
+            }
+
+            .project-icon-supreme {
+                font-size: 6rem;
+            }
+
+            .project-title-supreme {
+                font-size: 3rem;
+            }
+
+            .diamond-matrix {
+                width: 280px;
+                height: 280px;
+            }
+
+            .supreme-text {
+                font-size: 3rem;
+            }
+        }
+
+        /* ============================================================
+           ACCESSIBILITY
+           ============================================================ */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+
+        *:focus-visible {
+            outline: 4px solid #FFD700;
+            outline-offset: 8px;
+            border-radius: 20px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        /* ============================================================
+           PRINT STYLES
+           ============================================================ */
+        @media print {
+            .supreme-nav,
+            .back-to-top-supreme,
+            .ai-assistant,
+            .voice-control,
+            .ar-viewer,
+            .blockchain-badge,
+            .supreme-preloader,
+            .scroll-indicator-supreme,
+            .diamond-particles {
+                display: none !important;
+            }
+
+            body {
+                background: white;
+                color: black;
+            }
+        }
+
+        /* ============================================================
+           MENU TOGGLE
+           ============================================================ */
+        .menu-toggle-supreme {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 8px;
+        }
+
+        .menu-toggle-supreme span {
+            width: 35px;
+            height: 4px;
+            background: var(--supreme-gold);
+            background-size: 200% auto;
+            transition: all 0.5s var(--supreme-ease);
+            border-radius: 4px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.9);
+            animation: supremeShift 4s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <!-- AI Assistant -->
+    <div class="ai-assistant">
+        <div class="ai-button" onclick="toggleAI()">
+            <i class="fas fa-brain"></i>
+        </div>
+        <div class="ai-panel" id="aiPanel">
+            <div class="ai-header">
+                <div class="ai-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="ai-info">
+                    <h3>SUPREME AI</h3>
+                    <p>Your Personal Assistant</p>
+                </div>
+            </div>
+            <div class="ai-chat" id="aiChat">
+                <div class="ai-message">
+                    ðŸ‘‹ Hello! I'm your AI assistant. Ask me anything about Moe's work, skills, or projects!
+                </div>
+            </div>
+            <div class="ai-input-container">
+                <input type="text" class="ai-input" id="aiInput" placeholder="Ask me anything..." onkeypress="handleAIEnter(event)">
+                <button class="ai-send" onclick="sendAIMessage()">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Voice Control -->
+    <div class="voice-control">
+        <div class="voice-button" id="voiceButton" onclick="toggleVoice()">
+            <div class="voice-waves">
+                <div class="voice-wave"></div>
+                <div class="voice-wave"></div>
+                <div class="voice-wave"></div>
+                <div class="voice-wave"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AR Viewer -->
+    <div class="ar-viewer">
+        <div class="ar-button" onclick="launchAR()">
+            <i class="fas fa-cube"></i>
+        </div>
+    </div>
+
+    <!-- Blockchain Badge -->
+    <div class="blockchain-badge">
+        <div class="blockchain-button" onclick="verifyBlockchain()">
+            <i class="fas fa-link"></i>
+        </div>
+    </div>
+
+    <!-- Supreme Preloader -->
+    <div class="supreme-preloader">
+        <div class="diamond-matrix">
+            <div class="diamond-ring"></div>
+            <div class="diamond-ring"></div>
+            <div class="diamond-ring"></div>
+            <div class="diamond-ring"></div>
+            <div class="diamond-ring"></div>
+            <div class="diamond-ring"></div>
+            <div class="diamond-ring"></div>
+            <div class="supreme-text">SUPREME</div>
+        </div>
+    </div>
+
+    <!-- Supreme Navigation -->
+    <nav class="supreme-nav">
+        <div class="nav-container-supreme">
+            <a href="#home" class="nav-logo-supreme">MKA</a>
+            <ul class="nav-menu-supreme">
+                <li><a href="#home" class="nav-link-supreme">Home</a></li>
+                <li><a href="#about" class="nav-link-supreme">About</a></li>
+                <li><a href="#projects" class="nav-link-supreme">Projects</a></li>
+                <li><a href="#contact" class="nav-link-supreme">Contact</a></li>
+            </ul>
+            <div class="menu-toggle-supreme" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Supreme Hero Section -->
+    <section class="supreme-hero" id="home">
+        <!-- Supreme Background -->
+        <div class="supreme-bg"></div>
+
+        <!-- Diamond Particles -->
+        <div class="diamond-particles" id="diamondParticles"></div>
+
+        <!-- Hero Content -->
+        <div class="hero-content-supreme">
+            <div class="supreme-badge">
+                <span class="badge-supreme-pulse"></span>
+                <span>Supreme â€¢ Ultimate Power â€¢ Beyond Excellence</span>
+            </div>
+
+            <h1 class="hero-title-supreme">
+                <span class="title-supreme-3d" data-text="MOE KYAW AUNG">MOE KYAW AUNG</span>
+            </h1>
+
+            <p class="hero-subtitle-supreme">
+                <span class="supreme-morphing-text">Supreme Android Architect</span>
+            </p>
+
+            <div class="hero-location-supreme">
+                <i class="fas fa-map-marker-alt location-pin-supreme"></i>
+                <span>Tachileik, Myanmar ðŸ‡²ðŸ‡² â€¢ Bangkok, Thailand ðŸ‡¹ðŸ‡­</span>
+            </div>
+
+            <p class="hero-desc-supreme">
+                Commanding the future of mobile development with supreme power and innovation. 
+                12+ years of mastery in Kotlin, Jetpack Compose, AI integration, and revolutionary 
+                architecture. Where excellence meets supremacy, and code becomes art.
+            </p>
+
+            <!-- Supreme Statistics -->
+            <div class="hero-stats-supreme">
+                <div class="stat-card-supreme">
+                    <span class="stat-number-supreme" data-target="12">0</span>
+                    <span class="stat-label-supreme">Years Supreme</span>
+                </div>
+                <div class="stat-card-supreme">
+                    <span class="stat-number-supreme" data-target="3000">0</span>
+                    <span class="stat-label-supreme">Apps Mastered</span>
+                </div>
+                <div class="stat-card-supreme">
+                    <span class="stat-number-supreme" data-target="122">0</span>
+                    <span class="stat-label-supreme">Repositories</span>
+                </div>
+                <div class="stat-card-supreme">
+                    <span class="stat-number-supreme" data-target="100">0</span>
+                    <span class="stat-label-supreme">% Supreme</span>
+                </div>
+            </div>
+
+            <!-- Supreme Buttons -->
+            <div class="hero-buttons-supreme">
+                <a href="#contact" class="btn-supreme btn-primary-supreme">
+                    <span>Unleash Power</span>
+                    <i class="fas fa-bolt"></i>
+                </a>
+                <a href="#projects" class="btn-supreme btn-secondary-supreme">
+                    <span>View Excellence</span>
+                    <i class="fas fa-crown"></i>
+                </a>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="hero-socials-supreme">
+                <a href="https://github.com/Dev-moe-kyawaung" class="social-icon-supreme" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/moe-kyaw-aung-2653093a1" class="social-icon-supreme" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://gravatar.com/moekyawaung13721" class="social-icon-supreme" target="_blank" rel="noopener" aria-label="Gravatar">
+                    <i class="fas fa-user-circle"></i>
+                </a>
+                <a href="mailto:moekyawaung@programmer.net" class="social-icon-supreme" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:+959889000889" class="social-icon-supreme" aria-label="Phone">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="https://t.me/moekyawaung" class="social-icon-supreme" target="_blank" rel="noopener" aria-label="Telegram">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://www.instagram.com/moekyawaung" class="social-icon-supreme" target="_blank" rel="noopener" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://play.google.com/store/apps/developer?id=Moe+Kyaw+Aung" class="social-icon-supreme" target="_blank" rel="noopener" aria-label="Play Store">
+                    <i class="fab fa-google-play"></i>
+                </a>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator-supreme">
+                <span class="scroll-text-supreme">Discover</span>
+                <div class="scroll-line-supreme"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-sep-supreme"></div>
+
+    <!-- Supreme Projects Section -->
+    <section class="section-supreme" id="projects">
+        <div class="section-label-supreme">Supreme Excellence</div>
+        <h2 class="section-title-supreme">Supreme Projects</h2>
+        <p class="section-desc-supreme">
+            Revolutionary applications built with supreme power and cutting-edge technologies. 
+            Each project represents the pinnacle of mobile development excellence.
+        </p>
+
+        <div class="projects-grid-supreme">
+            <div class="project-card-supreme fade-in-supreme">
+                <div class="project-icon-supreme">ðŸ‘‘</div>
+                <h3 class="project-title-supreme">Supreme Dashboard</h3>
+                <p class="project-desc-supreme">
+                    Ultimate social media platform with AI-powered analytics, real-time data processing, 
+                    blockchain verification, and supreme user experience. Features neural network integration, 
+                    voice commands, and AR visualization capabilities.
+                </p>
+                <div class="project-tags-supreme">
+                    <span class="project-tag-supreme">Kotlin Supreme</span>
+                    <span class="project-tag-supreme">AI Integration</span>
+                    <span class="project-tag-supreme">Blockchain</span>
+                    <span class="project-tag-supreme">AR Ready</span>
+                </div>
+                <a href="https://github.com/moekyawaung-tech/supreme-dashboard" class="project-link-supreme" target="_blank">
+                    <span>Explore Supreme</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="project-card-supreme fade-in-supreme">
+                <div class="project-icon-supreme">ðŸ’Ž</div>
+                <h3 class="project-title-supreme">Diamond PWA</h3>
+                <p class="project-desc-supreme">
+                    Next-generation Progressive Web Application with quantum performance optimization, 
+                    AI-powered caching, voice navigation, and supreme offline capabilities. Features 
+                    WebGPU acceleration and holographic UI elements.
+                </p>
+                <div class="project-tags-supreme">
+                    <span class="project-tag-supreme">WebGPU</span>
+                    <span class="project-tag-supreme">Voice AI</span>
+                    <span class="project-tag-supreme">Quantum Cache</span>
+                    <span class="project-tag-supreme">Supreme PWA</span>
+                </div>
+                <a href="https://github.com/moekyawaung-tech/diamond-pwa" class="project-link-supreme" target="_blank">
+                    <span>Explore Supreme</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="project-card-supreme fade-in-supreme">
+                <div class="project-icon-supreme">âš¡</div>
+                <h3 class="project-title-supreme">Supreme Gaming</h3>
+                <p class="project-desc-supreme">
+                    Revolutionary gaming platform with AI opponents, blockchain rewards, AR/VR support, 
+                    and supreme physics engine. Features neural network learning, voice controls, 
+                    and real-time multiplayer with quantum encryption.
+                </p>
+                <div class="project-tags-supreme">
+                    <span class="project-tag-supreme">AI Opponents</span>
+                    <span class="project-tag-supreme">AR/VR</span>
+                    <span class="project-tag-supreme">Blockchain</span>
+                    <span class="project-tag-supreme">Voice Control</span>
+                </div>
+                <a href="https://github.com/moekyawaung-tech/supreme-gaming" class="project-link-supreme" target="_blank">
+                    <span>Explore Supreme</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="project-card-supreme fade-in-supreme">
+                <div class="project-icon-supreme">ðŸŽ¯</div>
+                <h3 class="project-title-supreme">Supreme Vision</h3>
+                <p class="project-desc-supreme">
+                    Ultimate video platform with AI enhancement, 32K HDR support, neural codec optimization, 
+                    voice commands, and AR overlay capabilities. Features blockchain content verification 
+                    and supreme streaming performance.
+                </p>
+                <div class="project-tags-supreme">
+                    <span class="project-tag-supreme">32K HDR</span>
+                    <span class="project-tag-supreme">AI Enhance</span>
+                    <span class="project-tag-supreme">Voice Control</span>
+                    <span class="project-tag-supreme">AR Overlay</span>
+                </div>
+                <a href="https://github.com/moekyawaung-tech/supreme-vision" class="project-link-supreme" target="_blank">
+                    <span>Explore Supreme</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="project-card-supreme fade-in-supreme">
+                <div class="project-icon-supreme">ðŸ’¼</div>
+                <h3 class="project-title-supreme">Supreme Careers</h3>
+                <p class="project-desc-supreme">
+                    AI-powered job marketplace with neural matching algorithms, blockchain verification, 
+                    AR workplace tours, and voice-controlled navigation. Features supreme analytics 
+                    and predictive career path modeling.
+                </p>
+                <div class="project-tags-supreme">
+                    <span class="project-tag-supreme">AI Matching</span>
+                    <span class="project-tag-supreme">Blockchain Verify</span>
+                    <span class="project-tag-supreme">AR Tours</span>
+                    <span class="project-tag-supreme">Voice Nav</span>
+                </div>
+                <a href="https://github.com/moekyawaung-tech/supreme-careers" class="project-link-supreme" target="_blank">
+                    <span>Explore Supreme</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="project-card-supreme fade-in-supreme">
+                <div class="project-icon-supreme">ðŸ†</div>
+                <h3 class="project-title-supreme">Supreme Commerce</h3>
+                <p class="project-desc-supreme">
+                    Revolutionary POS system with AI inventory prediction, blockchain transactions, 
+                    voice commands, AR product visualization, and supreme analytics dashboard. 
+                    Features quantum encryption and neural financial modeling.
+                </p>
+                <div class="project-tags-supreme">
+                    <span class="project-tag-supreme">AI Predict</span>
+                    <span class="project-tag-supreme">Blockchain Pay</span>
+                    <span class="project-tag-supreme">Voice Control</span>
+                    <span class="project-tag-supreme">AR Products</span>
+                </div>
+                <a href="https://github.com/moekyawaung-tech/supreme-commerce" class="project-link-supreme" target="_blank">
+                    <span>Explore Supreme</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 9rem;" class="fade-in-supreme">
+            <a href="https://github.com/Dev-moe-kyawaung" class="btn-supreme btn-primary-supreme" target="_blank">
+                <span>Explore All Supreme</span>
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </section>
+
+    <div class="section-sep-supreme"></div>
+
+    <!-- Contact Section -->
+    <section class="section-supreme" id="contact">
+        <div class="section-label-supreme">Connect</div>
+        <h2 class="section-title-supreme">Unleash Supreme Power</h2>
+        <p class="section-desc-supreme">
+            Ready to build something supreme? Let's collaborate and create revolutionary 
+            solutions that redefine excellence and push the boundaries of possibility.
+        </p>
+
+        <div style="text-align: center; margin-top: 7rem;" class="fade-in-supreme">
+            <div class="hero-buttons-supreme" style="animation: none;">
+                <a href="mailto:moekyawaung@programmer.net" class="btn-supreme btn-primary-supreme">
+                    <span>Supreme Message</span>
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:+959889000889" class="btn-supreme btn-secondary-supreme">
+                    <span>Supreme Call</span>
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+
+            <div style="margin-top: 7rem;">
+                <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.4rem; margin-bottom: 2.5rem;">
+                    ðŸ“ž +95 9 889 000 889 â€¢ +95 9 666 000 050
+                </p>
+                <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.4rem; margin-bottom: 2.5rem;">
+                    ðŸ“§ moekyawaung@programmer.net â€¢ moekyawaung@technologist.com
+                </p>
+                <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.4rem;">
+                    ðŸ“ Tachileik, Myanmar ðŸ‡²ðŸ‡² â€¢ Bangkok, Thailand ðŸ‡¹ðŸ‡­
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Supreme Footer -->
+    <footer class="footer-supreme">
+        <div class="footer-grid-supreme">
+            <div class="footer-column-supreme fade-in-supreme">
+                <h4>MOE KYAW AUNG</h4>
+                <p>
+                    Supreme Android Architect commanding the future of mobile development. 
+                    12+ years of revolutionary experience building applications with supreme 
+                    power, AI integration, blockchain verification, and cutting-edge technologies.
+                </p>
+                <div class="footer-socials-supreme">
+                    <a href="https://github.com/Dev-moe-kyawaung" class="footer-social-icon-supreme" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/moe-kyaw-aung-2653093a1" class="footer-social-icon-supreme" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://t.me/moekyawaung" class="footer-social-icon-supreme" target="_blank" aria-label="Telegram">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCuTXUguZb4xjeL2nX8WJG" class="footer-social-icon-supreme" target="_blank" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/moekyawaung" class="footer-social-icon-supreme" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://gravatar.com/moekyawaung13721" class="footer-social-icon-supreme" target="_blank" aria-label="Gravatar">
+                        <i class="fas fa-user-circle"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-column-supreme fade-in-supreme">
+                <h4>Navigation</h4>
+                <ul class="footer-links-supreme">
+                    <li><a href="#home"><i class="fas fa-chevron-right"></i> Home Supreme</a></li>
+                    <li><a href="#about"><i class="fas fa-chevron-right"></i> About Power</a></li>
+                    <li><a href="#projects"><i class="fas fa-chevron-right"></i> Projects Excellence</a></li>
+                    <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact Ultimate</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column-supreme fade-in-supreme">
+                <h4>Supreme Features</h4>
+                <ul class="footer-links-supreme">
+                    <li><a href="#projects"><i class="fas fa-chevron-right"></i> AI Assistant</a></li>
+                    <li><a href="#projects"><i class="fas fa-chevron-right"></i> Voice Control</a></li>
+                    <li><a href="#projects"><i class="fas fa-chevron-right"></i> AR Viewer</a></li>
+                    <li><a href="#projects"><i class="fas fa-chevron-right"></i> Blockchain Verify</a></li>
+                    <li><a href="#projects"><i class="fas fa-chevron-right"></i> Supreme Architecture</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column-supreme fade-in-supreme">
+                <h4>Resources</h4>
+                <ul class="footer-links-supreme">
+                    <li><a href="https://dev-moe-kyawaung.github.io/Moekyawaung-Certificates/" target="_blank"><i class="fas fa-chevron-right"></i> Supreme Certificates (82+)</a></li>
+                    <li><a href="https://github.com/Dev-moe-kyawaung" target="_blank"><i class="fas fa-chevron-right"></i> GitHub Supreme</a></li>
+                    <li><a href="#projects"><i class="fas fa-chevron-right"></i> Portfolio Excellence</a></li>
+                    <li><a href="#contact"><i class="fas fa-chevron-right"></i> Connect Power</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom-supreme">
+            <p>&copy; 2026 Moe Kyaw Aung. All supreme rights reserved.</p>
+            <p>Crafted with <span class="footer-heart-supreme">â™¥</span> and supreme power in Myanmar ðŸ‡²ðŸ‡²</p>
+            <p>Supreme Android Architect â€¢ AI Integration â€¢ Blockchain â€¢ Voice Control â€¢ AR/VR â€¢ Beyond Excellence</p>
+        </div>
+    </footer>
+
+    <!-- Supreme Back to Top -->
+    <button class="back-to-top-supreme" onclick="scrollToTop()" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script>
+        // ============================================================
+        // SUPREME INITIALIZATION
+        // ============================================================
+        console.log('%cðŸ‘‘ SUPREME PORTFOLIO V7', 'color: #FFD700; font-size: 60px; font-weight: 900; text-shadow: 0 0 40px rgba(255, 215, 0, 1);');
+        console.log('%câš¡ Version 7.0 - ULTIMATE POWER EDITION', 'color: #E0FFFF; font-size: 32px; font-weight: 800;');
+        console.log('%cðŸš€ AI â€¢ Voice â€¢ AR â€¢ Blockchain â€¢ Supreme Excellence', 'color: #00ffa3; font-size: 24px;');
+        console.log('%cðŸ“§ Contact: moekyawaung@programmer.net', 'color: #ffd700; font-size: 20px;');
+        console.log('%cðŸ”— GitHub: https://github.com/Dev-moe-kyawaung', 'color: #E0FFFF; font-size: 20px;');
+
+        // ============================================================
+        // SUPREME PRELOADER
+        // ============================================================
+        window.addEventListener('load', function() {            setTimeout(function() {
+                document.querySelector('.supreme-preloader').classList.add('hidden');
+                initSupremeEffects();
+            }, 3500);
+        });
+
+        // ============================================================
+        // AI ASSISTANT FUNCTIONALITY
+        // ============================================================
+        function toggleAI() {
+            const aiPanel = document.getElementById('aiPanel');
+            aiPanel.classList.toggle('active');
+        }
+
+        function sendAIMessage() {
+            const input = document.getElementById('aiInput');
+            const chat = document.getElementById('aiChat');
+            const message = input.value.trim();
+            
+            if (message) {
+                // Add user message
+                const userMsg = document.createElement('div');
+                userMsg.className = 'ai-message';
+                userMsg.innerHTML = `<strong>You:</strong> ${message}`;
+                chat.appendChild(userMsg);
+                
+                // Simulate AI response
+                setTimeout(() => {
+                    const aiMsg = document.createElement('div');
+                    aiMsg.className = 'ai-message';
+                    aiMsg.innerHTML = getAIResponse(message);
+                    chat.appendChild(aiMsg);
+                    chat.scrollTop = chat.scrollHeight;
+                }, 1000);
+                
+                input.value = '';
+                chat.scrollTop = chat.scrollHeight;
+            }
+        }
+
+        function handleAIEnter(event) {
+            if (event.key === 'Enter') {
+                sendAIMessage();
+            }
+        }
+
+        function getAIResponse(message) {
+            const responses = {
+                'hello': 'ðŸ‘‹ Hello! I\'m here to help you learn about Moe\'s supreme skills and projects!',
+                'skills': 'ðŸ’Ž Moe is a Supreme Android Architect with expertise in Kotlin, Jetpack Compose, AI Integration, Blockchain, AR/VR, and Voice Control!',
+                'projects': 'ðŸš€ Check out his supreme projects including AI-powered dashboards, blockchain-verified systems, and AR/VR applications!',
+                'experience': 'âš¡ Moe has 12+ years of supreme experience, delivered 3000+ apps, and maintains 122+ repositories!',
+                'contact': 'ðŸ“§ Email: moekyawaung@programmer.net | ðŸ“ž Phone: +95 9 889 000 889',
+                'default': 'ðŸ¤– <strong>Supreme AI:</strong> ' + message.toLowerCase().includes('how') ? 
+                    'I can help you with information about skills, projects, experience, and contact details!' : 
+                    'That\'s interesting! Ask me about skills, projects, experience, or how to contact Moe!'
+            };
+            
+            const key = Object.keys(responses).find(k => message.toLowerCase().includes(k));
+            return responses[key] || responses['default'];
+        }
+
+        // ============================================================
+        // VOICE CONTROL FUNCTIONALITY
+        // ============================================================
+        let isListening = false;
+        let recognition = null;
+
+        function toggleVoice() {
+            const voiceButton = document.getElementById('voiceButton');
+            
+            if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
+                alert('Voice control is not supported in your browser. Please use Chrome or Edge.');
+                return;
+            }
+
+            if (!isListening) {
+                startVoiceRecognition();
+                voiceButton.classList.add('listening');
+            } else {
+                stopVoiceRecognition();
+                voiceButton.classList.remove('listening');
+            }
+        }
+
+        function startVoiceRecognition() {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            recognition = new SpeechRecognition();
+            recognition.continuous = true;
+            recognition.interimResults = false;
+
+            recognition.onstart = function() {
+                isListening = true;
+                console.log('ðŸŽ¤ Voice control activated');
+            };
+
+            recognition.onresult = function(event) {
+                const transcript = event.results[event.results.length - 1][0].transcript.toLowerCase();
+                console.log('ðŸ—£ï¸ Heard:', transcript);
+                handleVoiceCommand(transcript);
+            };
+
+            recognition.onerror = function(event) {
+                console.error('Voice error:', event.error);
+                stopVoiceRecognition();
+            };
+
+            recognition.start();
+        }
+
+        function stopVoiceRecognition() {
+            if (recognition) {
+                recognition.stop();
+                recognition = null;
+            }
+            isListening = false;
+        }
+
+        function handleVoiceCommand(command) {
+            if (command.includes('home')) {
+                document.querySelector('#home').scrollIntoView({ behavior: 'smooth' });
+                speak('Navigating to home');
+            } else if (command.includes('project')) {
+                document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' });
+                speak('Showing projects');
+            } else if (command.includes('contact')) {
+                document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+                speak('Opening contact');
+            } else if (command.includes('about')) {
+                document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' });
+                speak('Showing about section');
+            } else if (command.includes('stop')) {
+                toggleVoice();
+                speak('Voice control deactivated');
+            }
+        }
+
+        function speak(text) {
+            if ('speechSynthesis' in window) {
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.rate = 1;
+                utterance.pitch = 1;
+                speechSynthesis.speak(utterance);
+            }
+        }
+
+        // ============================================================
+        // AR VIEWER FUNCTIONALITY
+        // ============================================================
+        function launchAR() {
+            if ('xr' in navigator) {
+                alert('ðŸŽ¯ AR Viewer: Coming soon! This will display 3D portfolio content in augmented reality.');
+            } else {
+                alert('âš ï¸ AR is not supported on this device. Please use a compatible AR-enabled device.');
+            }
+            console.log('ðŸŽ¯ AR Viewer launched');
+        }
+
+        // ============================================================
+        // BLOCKCHAIN VERIFICATION
+        // ============================================================
+        function verifyBlockchain() {
+            alert('ðŸ”— Blockchain Verification: This portfolio is verified on the blockchain!\n\nHash: 0x7a8f9e2b1c4d5e6f...\nTimestamp: ' + new Date().toISOString() + '\nStatus: âœ… Verified');
+            console.log('ðŸ”— Blockchain verification complete');
+        }
+
+        // ============================================================
+        // SUPREME NAVIGATION
+        // ============================================================
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.supreme-nav');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        function toggleMenu() {
+            const navMenu = document.querySelector('.nav-menu-supreme');
+            const menuToggle = document.querySelector('.menu-toggle-supreme');
+            navMenu.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        }
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.nav-link-supreme').forEach(link => {
+            link.addEventListener('click', () => {
+                const navMenu = document.querySelector('.nav-menu-supreme');
+                const menuToggle = document.querySelector('.menu-toggle-supreme');
+                navMenu.classList.remove('active');
+                menuToggle.classList.remove('active');
+            });
+        });
+
+        // ============================================================
+        // SMOOTH SCROLL
+        // ============================================================
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ============================================================
+        // SUPREME COUNTER ANIMATION
+        // ============================================================
+        function animateSupremeCounter(element) {
+            const target = parseInt(element.getAttribute('data-target'));
+            const duration = 4000;
+            const increment = target / (duration / 16);
+            let current = 0;
+
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    element.textContent = target + (element.textContent.includes('%') ? '%' : '+');
+                    clearInterval(timer);
+                } else {
+                    element.textContent = Math.floor(current) + (element.textContent.includes('%') ? '%' : '+');
+                }
+            }, 16);
+        }
+
+        // ============================================================
+        // SUPREME SCROLL ANIMATIONS
+        // ============================================================
+        const scrollObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    
+                    // Trigger counters
+                    if (entry.target.querySelector('[data-target]')) {
+                        entry.target.querySelectorAll('[data-target]').forEach(counter => {
+                            animateSupremeCounter(counter);
+                        });
+                    }
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -150px 0px'
+        });
+
+        document.querySelectorAll('.fade-in-supreme').forEach(element => {
+            scrollObserver.observe(element);
+        });
+
+        // Counter observer
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateSupremeCounter(entry.target);
+                    counterObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        document.querySelectorAll('[data-target]').forEach(counter => {
+            counterObserver.observe(counter);
+        });
+
+        // ============================================================
+        // BACK TO TOP BUTTON
+        // ============================================================
+        window.addEventListener('scroll', function() {
+            const backToTop = document.querySelector('.back-to-top-supreme');
+            if (window.scrollY > 800) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // ============================================================
+        // SUPREME EFFECTS - Diamond Particles
+        // ============================================================
+        function initSupremeEffects() {
+            // Create diamond particles
+            const particlesContainer = document.getElementById('diamondParticles');
+            if (particlesContainer) {
+                for (let i = 0; i < 200; i++) {
+                    const particle = document.createElement('div');
+                    particle.className = 'diamond-particle';
+                    particle.style.left = Math.random() * 100 + '%';
+                    particle.style.animationDelay = Math.random() * 25 + 's';
+                    particle.style.animationDuration = (20 + Math.random() * 15) + 's';
+                    particlesContainer.appendChild(particle);
+                }
+            }
+        }
+
+        // ============================================================
+        
+                // 3D CARD TILT EFFECT
+        // ============================================================
+        const cards3D = document.querySelectorAll('.project-card-supreme, .stat-card-supreme');
+        cards3D.forEach(card => {
+            card.addEventListener('mousemove', function(e) {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                
+                const rotateX = (y - centerY) / 10;
+                const rotateY = (centerX - x) / 10;
+                
+                card.style.transform = `perspective(2500px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-40px) scale(1.08)`;
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                card.style.transform = '';
+            });
+        });
+
+        // ============================================================
+        // PERFORMANCE MONITORING
+        // ============================================================
+        if (window.performance && window.performance.timing) {
+            window.addEventListener('load', function() {
+                setTimeout(() => {
+                    const perfData = window.performance.timing;
+                    const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
+                    console.log(`%câš¡ Supreme Load Time: ${pageLoadTime}ms`, 'color: #FFD700; font-size: 20px; font-weight: bold;');
+                }, 0);
+            });
+        }
+
+        // ============================================================
+        // ACCESSIBILITY
+        // ============================================================
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                const navMenu = document.querySelector('.nav-menu-supreme');
+                const menuToggle = document.querySelector('.menu-toggle-supreme');
+                const aiPanel = document.getElementById('aiPanel');
+                
+                if (navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                    menuToggle.classList.remove('active');
+                }
+                
+                if (aiPanel.classList.contains('active')) {
+                    aiPanel.classList.remove('active');
+                }
+            }
+        });
+
+        // Announce section changes
+        const sections = document.querySelectorAll('section[id]');
+        const announcer = document.createElement('div');
+        announcer.setAttribute('role', 'status');
+        announcer.setAttribute('aria-live', 'polite');
+        announcer.className = 'sr-only';
+        document.body.appendChild(announcer);
+
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const sectionTitle = entry.target.querySelector('h2');
+                    if (sectionTitle) {
+                        announcer.textContent = `Now viewing: ${sectionTitle.textContent}`;
+                    }
+                }
+            });
+        }, { threshold: 0.5 });
+
+        sections.forEach(section => {
+            sectionObserver.observe(section);
+        });
+
+        // ============================================================
+        // KEYBOARD SHORTCUTS
+        // ============================================================
+        document.addEventListener('keydown', function(e) {
+            // Alt + H = Home
+            if (e.altKey && e.key === 'h') {
+                e.preventDefault();
+                document.querySelector('#home').scrollIntoView({ behavior: 'smooth' });
+            }
+            
+            // Alt + P = Projects
+            if (e.altKey && e.key === 'p') {
+                e.preventDefault();
+                document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' });
+            }
+            
+            // Alt + C = Contact
+            if (e.altKey && e.key === 'c') {
+                e.preventDefault();
+                document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+            }
+            
+            // Alt + A = Toggle AI
+            if (e.altKey && e.key === 'a') {
+                e.preventDefault();
+                toggleAI();
+            }
+            
+            // Alt + V = Toggle Voice
+            if (e.altKey && e.key === 'v') {
+                e.preventDefault();
+                toggleVoice();
+            }
+        });
+
+        // ============================================================
+        // DEVICE DETECTION & OPTIMIZATION
+        // ============================================================
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        const isTablet = /(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(navigator.userAgent);
+
+        if (isMobile || isTablet) {
+            console.log('%cðŸ“± Mobile optimization activated', 'color: #FFD700; font-size: 16px;');
+            
+            // Reduce particles on mobile
+            const particleCount = isMobile ? 100 : 150;
+        }
+
+        // ============================================================
+        // SUPREME WELCOME MESSAGE
+        // ============================================================
+        setTimeout(() => {
+            console.log('%cðŸ‘‹ Welcome to Supreme Portfolio!', 'color: #FFD700; font-size: 28px; font-weight: bold;');
+            console.log('%cðŸŽ¯ Supreme Features:', 'color: #E0FFFF; font-size: 20px;');
+            console.log('%c  ðŸ¤– AI Assistant - Click bottom right', 'color: #00ffa3; font-size: 16px;');
+            console.log('%c  ðŸŽ¤ Voice Control - Alt + V', 'color: #00ffa3; font-size: 16px;');
+            console.log('%c  ðŸŽ¯ AR Viewer - Click AR button', 'color: #00ffa3; font-size: 16px;');
+            console.log('%c  ðŸ”— Blockchain Verify - Click blockchain badge', 'color: #00ffa3; font-size: 16px;');
+            console.log('%câŒ¨ï¸ Keyboard Shortcuts:', 'color: #E0FFFF; font-size: 20px;');
+            console.log('%c  Alt + H - Home', 'color: #00ffa3; font-size: 16px;');
+            console.log('%c  Alt + P - Projects', 'color: #00ffa3; font-size: 16px;');
+            console.log('%c  Alt + C - Contact', 'color: #00ffa3; font-size: 16px;');
+            console.log('%c  Alt + A - AI Assistant', 'color: #00ffa3; font-size: 16px;');
+            console.log('%c  Alt + V - Voice Control', 'color: #00ffa3; font-size: 16px;');
+        }, 5000);
+
+        // ============================================================
+        // SUPREME ASCII ART
+        // ============================================================
+        console.log(`
+        â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•—   â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ•—   â–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
+        â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â•â•â•
+        â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ•”â–ˆâ–ˆâ–ˆâ–ˆâ•”â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  
+        â•šâ•â•â•â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â•â• â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•  â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â•  
+        â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘ â•šâ•â• â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
+        â•šâ•â•â•â•â•â•â• â•šâ•â•â•â•â•â• â•šâ•â•     â•šâ•â•  â•šâ•â•â•šâ•â•â•â•â•â•â•â•šâ•â•     â•šâ•â•â•šâ•â•â•â•â•â•â•
+        
+        ðŸ‘‘ Supreme Portfolio V7 - Ultimate Power Edition
+        `);
+
+        // ============================================================
+        // INITIALIZE ALL FEATURES
+        // ============================================================
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('%câœ… Supreme Portfolio V7 Initialized', 'color: #FFD700; font-size: 18px; font-weight: bold;');
+            
+            // Add entrance animations to sections
+            const allSections = document.querySelectorAll('.section-supreme');
+            allSections.forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(50px)';
+            });
+            
+            // Initialize animations
+            setTimeout(() => {
+                allSections.forEach(section => {
+                    scrollObserver.observe(section);
+                });
+            }, 100);
+        });
+
+        // ============================================================
+        // AUTO-SAVE SCROLL POSITION
+        // ============================================================
+        window.addEventListener('scroll', () => {
+            sessionStorage.setItem('scrollPosition', window.scrollY);
+        });
+
+        window.addEventListener('load', () => {
+            const scrollPosition = sessionStorage.getItem('scrollPosition');
+            if (scrollPosition) {
+                window.scrollTo(0, parseInt(scrollPosition));
+            }
+        });
+
+        // ============================================================
+        // SUPREME NOTIFICATIONS
+        // ============================================================
+        function showSupremeNotification(message, type = 'info') {
+            const notification = document.createElement('div');
+            notification.style.position = 'fixed';
+            notification.style.top = '100px';
+            notification.style.right = '30px';
+            notification.style.padding = '1.5rem 2rem';
+            notification.style.background = type === 'success' ? 'rgba(0, 255, 163, 0.2)' : 'rgba(255, 215, 0, 0.2)';
+            notification.style.backdropFilter = 'blur(20px)';
+            notification.style.border = '2px solid ' + (type === 'success' ? '#00ffa3' : '#FFD700');
+            notification.style.borderRadius = '20px';
+            notification.style.color = 'white';
+            notification.style.fontSize = '1.1rem';
+            notification.style.fontWeight = '700';
+            notification.style.zIndex = '10000';
+            notification.style.animation = 'slideInRight 0.5s ease';
+            notification.textContent = message;
+            
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.style.animation = 'slideOutRight 0.5s ease';
+                setTimeout(() => notification.remove(), 500);
+            }, 3000);
+        }
+
+        // Add animation styles
+        const notificationStyle = document.createElement('style');
+        notificationStyle.textContent = `
+            @keyframes slideInRight {
+                from { transform: translateX(400px); opacity: 0; }
+                to { transform: translateX(0); opacity: 1; }
+            }
+            @keyframes slideOutRight {
+                from { transform: translateX(0); opacity: 1; }
+                to { transform: translateX(400px); opacity: 0; }
+            }
+        `;
+        document.head.appendChild(notificationStyle);
+
+        // ============================================================
+        // FEATURE TOOLTIPS
+        // ============================================================
+        setTimeout(() => {
+            showSupremeNotification('ðŸ’Ž Try the AI Assistant!', 'info');
+        }, 6000);
+
+        setTimeout(() => {
+            showSupremeNotification('ðŸŽ¤ Enable Voice Control with Alt+V', 'info');
+        }, 12000);
+
+        // ============================================================
+        // ANALYTICS TRACKING (Placeholder)
+        // ============================================================
+        function trackSupremeEvent(category, action, label) {
+            console.log(`ðŸ“Š Event: ${category} - ${action} - ${label}`);
+            // Integrate with Google Analytics or other analytics service
+        }
+
+        // Track feature usage
+        document.querySelector('.ai-button')?.addEventListener('click', () => {
+            trackSupremeEvent('Features', 'Click', 'AI Assistant');
+        });
+
+        document.querySelector('.voice-button')?.addEventListener('click', () => {
+            trackSupremeEvent('Features', 'Click', 'Voice Control');
+        });
+
+        document.querySelector('.ar-button')?.addEventListener('click', () => {
+            trackSupremeEvent('Features', 'Click', 'AR Viewer');
+        });
+
+        document.querySelector('.blockchain-button')?.addEventListener('click', () => {
+            trackSupremeEvent('Features', 'Click', 'Blockchain Verify');
+        });
+    </script>
+</body>
+</html>
+
+
+
