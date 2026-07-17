@@ -1,0 +1,93 @@
+# ============================================================
+# Git Ignore - Supreme Portfolio V7
+# ============================================================
+
+# Operating System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*~
+.directory
+*.swp
+
+# IDE and Editor Files
+.vscode/
+*.code-workspace
+.history/
+.idea/
+*.iml
+*.iws
+*.swp
+*.swo
+.sublime-project
+.sublime-workspace
+.atom/
+.brackets.json
+
+# Node Modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build Output
+dist/
+build/
+out/
+.cache/
+*.log
+
+# Environment Files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.key
+*.pem
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# MacOS
+.Spotlight-V100
+.Trashes
+
+# Windows
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+.fuse_hidden*
+.Trash-*
+.nfs*
+
+# Testing
+coverage/
+.nyc_output/
+*.test.js
+*.spec.js
+
+# Misc
+.sass-cache/
+*.map
+*.orig
+
